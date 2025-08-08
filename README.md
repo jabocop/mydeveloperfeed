@@ -1,2 +1,2 @@
-# mydeveloperfeed
+# My Developer Feed
 A developer rss feed created in n8n, personlized for my needs
