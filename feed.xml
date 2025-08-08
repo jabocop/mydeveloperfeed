@@ -5,36 +5,262 @@
     <link>https://github.com/yourusername/your-rss-repo</link>
     <description>Personalized developer news and articles</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Aug 2025 09:45:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 Aug 2025 17:45:53 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/yourusername/your-rss-repo/main/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title><![CDATA[Building Bluesky comments for my blog]]></title>
-      <link>undefined</link>
-      <description><![CDATA[This article details building a decentralized blog comment system using Bluesky’s AT Protocol]]></description>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://natalie.sh/posts/bluesky-comments/</guid>
-      <source url="leveraging DIDs and CIDs for content management without backend infrastructure. The key tools include @atcute/client for TypeScript API typings">leveraging DIDs and CIDs for content management without backend infrastructure. The key tools include @atcute/client for TypeScript API typings</source>
+      <title><![CDATA[Show HN: Octofriend, a cute coding agent that can swap between GPT-5 and Claude]]></title>
+      <link>https://github.com/synthetic-lab/octofriend</link>
+      <description><![CDATA[- OctoFriend is an open-source coding assistant that can switch mid-chat between GPT-5, Claude 4, GLM-4.5, Kimi K2, etc., via OpenAI/Anthropic APIs or local LLMs. 
+- It uses custom autofix models (diff-apply, fix-json) to auto-handle tool-call and code-edit failures and manages thinking tokens for multi-turn LLMs. 
+- Privacy-first with zero telemetry; run with --unchained to skip confirmations. 
+- Setup: npm i -g octofriend; run octofriend. 
+- Rules merge from OCTO.md/CLAUDE.md/AGENTS.md in project/home. 
+- MCP integration via ~/.config/octofriend/octofriend.json5 with mcpServers. 
+- Local LLMs: add model with baseUrl and apiEnvVar.]]></description>
+      <pubDate>Thu, 07 Aug 2025 18:34:21 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/synthetic-lab/octofriend</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
     </item>
   
 
     <item>
       <title><![CDATA[Lightweight LSAT]]></title>
-      <link>undefined</link>
-      <description><![CDATA[Lightweight LSAT presents a free]]></description>
-      <pubDate>Fri, 08 Aug 2025 09:43:00 GMT</pubDate>
+      <link>https://lightweightlsat.com/</link>
+      <description><![CDATA[The Lightweight LSAT is a free, skills-based guide that frames the LSAT around two core tools: Patterns (common question patterns) and Fundamental Skills (reading, reasoning, timing). It outlines a 5-step Reasoning Process and section-focused guidance (Reading, Reasoning, Timing), plus practical methods like mini-experiments, starting slow, and prioritizing process over raw scores. Actionable takeaways: study patterns, develop core skills, analyze results, adapt to your brain, and freely explore site resources. Note: no practice questions on site; LawHub is the official practice source. Version 0.7; feedback welcome.]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:51:59 GMT</pubDate>
       <guid isPermaLink="true">https://lightweightlsat.com/</guid>
-      <source url="pattern- and skill-based approach to LSAT prep">pattern- and skill-based approach to LSAT prep</source>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
     </item>
   
 
     <item>
-      <title><![CDATA[GPT-5: Key characteristics, pricing and system card]]></title>
-      <link>undefined</link>
-      <description><![CDATA[GPT-5 introduces a hybrid architecture, blending a fast, general model with a deeper reasoning model and a real-time router, improving task competence with token input limits of 272K and 128K output tokens. Pricing is highly competitive: $1.25/million input and $10/million output tokens, with significant caching discounts. It emphasizes safety through safe-completions, reducing hallucinations, and mitigating sycophancy via post-training. Prompt injection resilience remains imperfect, with over 50% attack success at multiple queries. API features include reasoning traces and efficient streaming via reasoning_effort=minimal. Practical tools demonstrated include SVG generation and reasoning via API, highlighting its capability for complex, creative tasks.]]></description>
-      <pubDate>Thu, 07 Aug 2025 17:46:18 GMT</pubDate>
-      <guid isPermaLink="true">https://simonwillison.net/2025/Aug/7/gpt-5/</guid>
-      <source url="Hacker News">Hacker News</source>
+      <title><![CDATA[Show HN: Browser AI agent platform designed for reliability]]></title>
+      <link>https://github.com/nottelabs/notte</link>
+      <description><![CDATA[Notte is a browser AI agent platform with an open-source core and hosted API for reliable web automation. Core tech includes Playwright-compatible primitives, structured outputs via Pydantic models, and hybrid workflows that blend scripting with AI reasoning to cut costs. Key features: stealth sessions with CAPTCHA solving and proxies, secrets vaults, digital personas, file storage, cookies/auth sessions, and CDP browser compatibility. Tools include a Python SDK (NotteClient), hosted API, and a scraping endpoint. Quickstart: pip install notte; patchright install --with-deps chromium; run locally or via Notte Console with an API key. Release v1.6.1.]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:12:21 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/nottelabs/notte</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Foundry (YC F24) is hiring staff-level product engineers]]></title>
+      <link>https://www.ycombinator.com/companies/foundry/jobs/jwdYx6v-founding-product-engineer</link>
+      <description><![CDATA[YC-funded Foundry is hiring a Founding Product Engineer (SF) to influence core platform design. You’ll build a browser-based simulation/evaluation platform to train and test web-automation agents, including deterministic browser simulation, live evaluation, automated annotation, and RL-driven optimization. Core work spans: scalable browser simulation engine; rigorous evaluation/benchmarking systems; full-stack development (Python FastAPI, Go, Rust; React/Next.js/TypeScript); and infrastructure (Kubernetes, Docker, AWS/GCP). Tech stack includes WebSockets, Playwright/Puppeteer, PostgreSQL, Redis, RabbitMQ. Own end-to-end production, establish CI/CD, monitoring, and observability. Compensation ~$300k/year with 1–2% equity; visa sponsorship available. Requirements: 6–10+ years, distributed systems, browser internals, elite coding (Codeforces ≥1600). Apply via YC.]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:00:58 GMT</pubDate>
+      <guid isPermaLink="true">https://www.ycombinator.com/companies/foundry/jobs/jwdYx6v-founding-product-engineer</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Preventing ZIP parser confusion attacks on Python package installers]]></title>
+      <link>https://blog.pypi.org/posts/2025-08-07-wheel-archive-confusion-attacks/</link>
+      <description><![CDATA[Key takeaways: Wheels are ZIP archives, and ZIP parsing is error‑prone. PyPI will reject wheels and ZIPs that exploit ZIP ambiguities by enforcing RECORD integrity and ZIP header consistency (invalid/duplicate Local and Central Directory entries, mismatches, trailing data, multiple End of Central Directory records, bad End of Central Directory Locator). PyPI already flags ZIP bombs and will, on 2026-02-01, reject uploads whose ZIP contents don’t match RECORD. Actions: keep installers up to date; ensure RECORD matches the ZIP; have ZIP implementations validate the Central Directory before extraction (CPython zipfile as reference).]]></description>
+      <pubDate>Thu, 07 Aug 2025 16:16:42 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.pypi.org/posts/2025-08-07-wheel-archive-confusion-attacks/</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[The Sunlight Budget of Earth]]></title>
+      <link>https://www.asimov.press/p/sunlight-budget</link>
+      <description><![CDATA[Summary: The Sunlight Budget of Earth estimates how sunlight is shared among natural photosynthesis (land and sea) and human use (agriculture and solar). Key numbers: solar absorption ~120,000 GW; current solar ~1,200 GW (≈240 GW electricity); agriculture ~1,700 GW. Wild photosynthesis across land and sea totals ~240,000 GW; humans use ~11% of that energy. About 0.5% of incoming sunlight is captured productively; the rest heats or is reflected. Methods/datasets: Haberl et al. 2007; LPJ-DGVM; ocean measurements; Energy Institute 2024–25; Our World in Data; Sunlight Budget Data.xlsx. Takeaways: expand agrivoltaics, reuse degraded lands, and explore modest solar-reflection offsets (~0.2%) for warming.]]></description>
+      <pubDate>Thu, 07 Aug 2025 16:15:41 GMT</pubDate>
+      <guid isPermaLink="true">https://www.asimov.press/p/sunlight-budget</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[How to sell if your user is not the buyer]]></title>
+      <link>https://writings.founderlabs.io/p/how-to-sell-if-your-user-is-not-the</link>
+      <description><![CDATA[Key idea: the buyer isn’t always the user; who has buying power varies by org size. In small orgs, developers who test and champion tooling can become de facto buyers; in large orgs, CTOs/leadership control budget due to security and longer cycles. Actionable playbook: 1) equip devs with tools to convince leadership, translating value into ROI (time saved, faster iteration) with concrete before/after cases; 2) run trials and capture real numbers; 3) interview developers to map leadership needs and friction; 4) treat devs as internal salespeople and propagate adoption. Aim for a win-win.]]></description>
+      <pubDate>Thu, 07 Aug 2025 15:09:02 GMT</pubDate>
+      <guid isPermaLink="true">https://writings.founderlabs.io/p/how-to-sell-if-your-user-is-not-the</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Lithium compound can reverse Alzheimer’s in mice: study]]></title>
+      <link>https://hms.harvard.edu/news/could-lithium-explain-treat-alzheimers-disease</link>
+      <description><![CDATA[I can summarize, but I need the article content. The title alone doesn’t reveal methods, results, or tools. Please paste the full text or key excerpts (methods, results, discussion). If you can’t share the article, I can provide a cautious teaser based on the title alone, but it won’t capture specifics. Which would you prefer?]]></description>
+      <pubDate>Thu, 07 Aug 2025 14:56:05 GMT</pubDate>
+      <guid isPermaLink="true">https://hms.harvard.edu/news/could-lithium-explain-treat-alzheimers-disease</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Moreshell tricks: first class lists, jq, and the es shell]]></title>
+      <link>https://alurm.github.io/blog/2025-08-07-first-class-lists-in-shells.html</link>
+      <description><![CDATA[Two techniques to get multiple lists from shell-like code. 1) Using jq: emit shell-safe lists with -nr and @sh, access arguments via $ARGS.positional, and build before/after around --; output via @sh and evaluate with eval to assign arrays. 2) Using es-shell: closures to emulate lists and return multiple values. Define list, then split-by-double-dash to yield before/after, which can be destructured as (before after). Takeaways: jq provides a safe, portable way to pass lists into the shell; es-shell enables true multiple-list returns via closures, but beware nesting limitations and pitfalls of shell scripting.]]></description>
+      <pubDate>Thu, 07 Aug 2025 14:46:14 GMT</pubDate>
+      <guid isPermaLink="true">https://alurm.github.io/blog/2025-08-07-first-class-lists-in-shells.html</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Jepsen: Capela dda5892]]></title>
+      <link>https://jepsen.io/analyses/capela-dda5892</link>
+      <description><![CDATA[Jepsen evaluated Capela, an unreleased distributed Python-like environment with transactional objects and per-partition state machines. Using Jepsen's library (with Elle for consistency), LazyFS, EC2/LXC, and workloads (write-read registers, list-append, partition-set, ad hoc, gen_py), they tested builds dda5892–599e9cb. Findings: four language issues (loops don’t loop; match unimplemented; destructuring leaks; semi-lazy assigns) and fourteen crashes/panics; one memory-allocator corruption; three safety defects (partitions ignore fields, vanish/reappear, lost writes). Performance degrades after 20–100s; several failures in healthy clusters. Capela fixed two language issues; many bugs remain. Next steps: stabilize language semantics, fix safety/replication bugs, and expand test coverage and dynamic partitions.]]></description>
+      <pubDate>Thu, 07 Aug 2025 14:44:23 GMT</pubDate>
+      <guid isPermaLink="true">https://jepsen.io/analyses/capela-dda5892</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Sweatshop Data Is Over]]></title>
+      <link>https://www.mechanize.work/blog/sweatshop-data-is-over/</link>
+      <description><![CDATA[Main takeaway: sweatshop data alone won’t propel advanced AI. Progress now hinges on three shifts: (1) Software, not datasets—develop sophisticated interactive environments that support long-horizon, end-to-end learning (e.g., robust infrastructure, security, scalability tasks). (2) Full-time, high-skill contributors and deep domain experts who can encode tacit knowledge into AI systems. (3) Better RL frameworks and rewards—emphasize RL with verifiable rewards (RLVR) and custom environments that faithfully simulate reality, beyond simple test-case scoring. Actionable: invest in durable, high-quality environments and recruit top talent to design and teach these tasks; roles in infrastructure/system design are relevant.]]></description>
+      <pubDate>Thu, 07 Aug 2025 14:00:20 GMT</pubDate>
+      <guid isPermaLink="true">https://www.mechanize.work/blog/sweatshop-data-is-over/</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Windows XP Professional]]></title>
+      <link>https://win32.run/</link>
+      <description><![CDATA[This snippet shows a Windows XP Professional guest boot in VMware, displaying PhoenixBIOS 1.4 Release 6.0 (1985–2001) and VMware BIOS build 314. It indicates a VM boot sequence using a virtual ATAPI CD-ROM (VMware Virtual IDECDROM Drive) in POST initialization. Key insights: VMware provides a virtual IDE CD-ROM and layers Phoenix BIOS with VMware firmware. Actionable takeaways: configure the VM with a bootable CD/DVD ISO attached to the IDE CD-ROM and set boot order to prioritize CD-ROM for OS installation or recovery.]]></description>
+      <pubDate>Thu, 07 Aug 2025 13:58:25 GMT</pubDate>
+      <guid isPermaLink="true">https://win32.run/</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Laptop Support and Usability (LSU): July 2025 Report]]></title>
+      <link>https://github.com/FreeBSDFoundation/proj-laptop/blob/main/monthly-updates/2025-07.md</link>
+      <description><![CDATA[LSU July 2025 centers on leveraging GitHub’s dev stack for laptop usability: AI-assisted coding with Copilot, instant dev environments via Codespaces, automated workflows with Actions, and security for vulnerability management. It also notes prompt management (GitHub Models), code search/review/discussions, and the ReadMe Project for community content, plus learning resources (Pathways, events, ebooks) and enterprise options. A notable issue: a UI load error on the Security tab (“UH OH!”) requiring a reload and potential access checks. Actionable takeaways: sign in, use Saved Searches to filter results, and monitor with Insights/Pulse.]]></description>
+      <pubDate>Thu, 07 Aug 2025 13:55:18 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/FreeBSDFoundation/proj-laptop/blob/main/monthly-updates/2025-07.md</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Infinite Pixels]]></title>
+      <link>https://meyerweb.com/eric/thoughts/2025/08/07/infinite-pixels/</link>
+      <description><![CDATA[Eric Meyer probes infinite CSS values by using width: calc(infinity * 1px) and height: calc(infinity * 1px), tested in Firefox Nightly, Chrome, and Safari. All engines clamp to finite sizes, with Chrome/Safari landing near 33,554,431px (about 2^25) and small offsets; the reason is unclear. Firefox computes with 32-bit floats (e.g., 19.2px computed, 17,895,700px layout for width; 2,400px font size, line-height effects causing large layouts). Firefox also uses a 1/60-pixel layout unit. Takeaways: experiment with engine internals, note engine-specific limits, and observe line-height effects on extreme values.]]></description>
+      <pubDate>Thu, 07 Aug 2025 13:12:42 GMT</pubDate>
+      <guid isPermaLink="true">https://meyerweb.com/eric/thoughts/2025/08/07/infinite-pixels/</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Arm Desktop: x86 Emulation]]></title>
+      <link>https://marcin.juszkiewicz.com.pl/2025/07/22/arm-desktop-emulation/</link>
+      <description><![CDATA[Arm Desktop: Emulation shows running x86-64 binaries on an AArch64 Fedora system using FEX-emu (not QEMU). For 4K page size kernels you can avoid muvm and binfmt-dispatcher; only FEX-emu is needed. Install FEX-emu (which provides a Fedora x86-64 rootfs) and keep binfmt.d minimal (FEX-x86_64.conf and FEX-x86.conf). Test with FEXBash uname -m to confirm x86_64. Performance tweaks in ~/.fex-emu/Config.json: X87ReducedPrecision=1, TSOEnabled=0; enable GL/Vulkan thunks. Geekbench: ~459/4110 on Neoverse N1. Steam via RPM Fusion i686 with --nodeps --ignorearch; Factorio playable with tweaks. Useful for light tasks; not ideal for heavy workloads.]]></description>
+      <pubDate>Thu, 07 Aug 2025 12:26:56 GMT</pubDate>
+      <guid isPermaLink="true">https://marcin.juszkiewicz.com.pl/2025/07/22/arm-desktop-emulation/</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[School AI surveillance can lead to false alarms, arrests]]></title>
+      <link>https://apnews.com/article/ai-school-surveillance-gaggle-goguardian-bark-8c531cde8f9aee0b1ef06cfce109724a</link>
+      <description><![CDATA[AP's report on AI-powered school surveillance shows Gaggle, Lightspeed Alert, Bark, GoGuardian, and Securly scanning student emails, chats, and files for threats. It reveals high false-alarm rates: in Lawrence, Kansas, over 1,200 alerts in 10 months, with two-thirds labeled nonissues and more than 200 false homework-related alerts; a Tennessee 13-year-old was arrested, interrogated, even strip-searched, under zero-tolerance policies. Key takeaways: AI can misread context; demands for transparency of false-positive rates; need for human review and narrowly scoped monitoring; prioritize supportive mental-health interventions over punitive police involvement; adjust settings to reduce false alarms.]]></description>
+      <pubDate>Thu, 07 Aug 2025 11:17:32 GMT</pubDate>
+      <guid isPermaLink="true">https://apnews.com/article/ai-school-surveillance-gaggle-goguardian-bark-8c531cde8f9aee0b1ef06cfce109724a</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[The Whispering Earring]]></title>
+      <link>https://croissanthology.com/earring</link>
+      <description><![CDATA[The Whispering Earring is a decision-support artifact that always advises what will make the wearer happiest. It starts by suggesting removal, then gradually speaks via a language of muscle movements and, through reinforcement, becomes instinctual. Wearers reportedly achieve long-term success and social status, but brain autopsy notes show neocortex atrophy with hypertrophied mid- and lower-brain regions tied to reflexive actions, indicating deep neuroplastic changes from habit. Kadmi-nomai seals the artifact away after interrogation, aided by the Piercing Star. Takeaways: powerful happiness-optimizing aids can erode autonomy and rewire the brain; restrict access and monitor outcomes.]]></description>
+      <pubDate>Thu, 07 Aug 2025 10:16:28 GMT</pubDate>
+      <guid isPermaLink="true">https://croissanthology.com/earring</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Gemini CLI GitHub Actions]]></title>
+      <link>https://blog.google/technology/developers/introducing-gemini-cli-github-actions/</link>
+      <description><![CDATA[Gemini CLI GitHub Actions (beta) provides a no-cost AI coding teammate for repos, built as open-source GitHub workflows. It automates issue triage, accelerates pull request reviews, and supports on-demand collaboration via @gemini-cli. Get Gemini CLI 0.1.18 or later and run /setup-github to start. Key tech: integrates Vertex AI and Gemini Code Assist, credential-less authentication with Workload Identity Federation, least-privilege controls, command allowlisting, and OpenTelemetry for observability to Cloud Monitoring. GitHub Action available at google-github-actions/run-gemini-cli. Quotas are free for Google AI Studio; you can customize or extend workflows.]]></description>
+      <pubDate>Thu, 07 Aug 2025 09:28:46 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.google/technology/developers/introducing-gemini-cli-github-actions/</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Emailing a one-time code is worse than passwords]]></title>
+      <link>https://blog.danielh.cc/blog/passwords</link>
+      <description><![CDATA[Summary: The post argues that login flows that email or SMS a 6-digit code are worse than passwords. They enable phishing—an attacker can prompt for the code after obtaining your address, and password managers offer no protection against this scheme. The issue has appeared in the wild (Minecraft/Microsoft account verifications, Discord phishing). Actionable takeaways: avoid or disable email/phone one-time-code logins in favor of more secure authentication, and be cautious of code-based logins; rely on password-based credentials and stronger, phishing-resistant authentication where possible.]]></description>
+      <pubDate>Thu, 07 Aug 2025 02:19:25 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.danielh.cc/blog/passwords</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Claude Code IDE integration for Emacs]]></title>
+      <link>https://github.com/manzaltu/claude-code-ide.el</link>
+      <description><![CDATA[Claude Code IDE for Emacs provides native MCP-based integration between Claude Code CLI and Emacs, enabling bidirectional communication; Claude can leverage Emacs features like LSP, Tree-sitter, Imenu, and project management. Key features: auto project detection, terminal integration (vterm or eat), diagnostics with Flycheck/Flymake, advanced diff with ediff, side-window UI. Emacs MCP tools expose built-in commands (xref, treesit, imenu, project-info) and can be extended with custom tools. Supports multi-project sessions with per-project Claude buffers; multiple instances via git worktrees. Installation via use-package/straight; configurable CLI flags, system prompts, debugging, and terminal reflow glitch workaround (temporary).]]></description>
+      <pubDate>Wed, 06 Aug 2025 13:17:38 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/manzaltu/claude-code-ide.el</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Hopfield Networks Is All You Need (2020)]]></title>
+      <link>https://arxiv.org/abs/2008.02217</link>
+      <description><![CDATA[Ramsauer et al. present a modern Hopfield network with continuous states and a new update rule that enables storing and retrieving patterns with a single update and vanishing error. It supports three energy minima: global averaging, metastable subset averaging, and fixed points for individual patterns. The update rule mirrors transformer attention, linking Hopfield layers to transformer heads (global averaging in early layers; metastable averaging in higher layers). These Hopfield layers can be plugged into deep nets for pooling, memory, and attention. They improve MIL and drug-design tasks. Code: ml-jku/hopfield-layers.]]></description>
+      <pubDate>Mon, 04 Aug 2025 18:34:22 GMT</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2008.02217</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[A generic non-invasive neuromotor interface for human-computer interaction]]></title>
+      <link>https://www.nature.com/articles/s41586-025-09255-w</link>
+      <description><![CDATA[The study presents a generic, non-invasive neuromotor interface decoding user intent from wrist-based sEMG using a dry-electrode 48‑channel band. Leveraging thousands of participants, it trains cross‑user generic models (no per‑user calibration) for three online tasks: 1D wrist control, discrete gestures, and handwriting, achieving median online rates of 0.66, 0.88 and 20.9 WPM. Key tech includes MPF features, a wrist LSTM decoder, a 1D-CNN+LSTM for gestures, and a conformer with CTC for handwriting. Personalization raises handwriting CER by ~16% with ~20 minutes data. Data and code are released for reuse.]]></description>
+      <pubDate>Mon, 04 Aug 2025 13:08:24 GMT</pubDate>
+      <guid isPermaLink="true">https://www.nature.com/articles/s41586-025-09255-w</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Koalas vs. Crows: An Evolutionary Theory of Software]]></title>
+      <link>https://ajmoon.com/posts/koalas-vs-crows-an-evolutionary-theory-of-software</link>
+      <description><![CDATA[Alex Moon frames software evolution as an energy-cost problem: cognitive load drives design. Two archetypes emerge: koala software—low-energy, specialized, deliberately simple (SMTP, FAT32, CSV, JSON); crow software—high-energy, flexible, feature-rich (Kubernetes, React, Photoshop, IDEs). The Unix philosophy (do one thing well) clashes with ‘worse is better’ in practice; modular pipelines (POSIX tools) versus integrated stacks (X Window System, Wayland). Disruptive vs sustaining innovation explains when koala-like simplicity dominates vs when crow-like breadth prevails. Practical takeaway: classify your niche, anticipate energy trade-offs, and choose tools (HTMX, CSV/JSON vs XML/SOAP; jQuery to React) accordingly; adapt or die.]]></description>
+      <pubDate>Mon, 04 Aug 2025 09:03:11 GMT</pubDate>
+      <guid isPermaLink="true">https://ajmoon.com/posts/koalas-vs-crows-an-evolutionary-theory-of-software</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Monte Carlo Crash Course: Quasi-Monte Carlo]]></title>
+      <link>https://thenumb.at/QMC/</link>
+      <description><![CDATA[Quasi-Monte Carlo improves Monte Carlo by using negative correlation and low-discrepancy sequences. Key ideas: stratified sampling (partition domain) reduces variance; dynamic stratification (M ~ sqrt(N)) and adaptive sampling allocate more samples to high-variance regions; Latin hypercube as scalable stratification; Poisson disk sampling yields negative correlation via rejection. QMC yields biased but consistent estimators; error tied to star-discrepancy D*_N via the Koksma–Hlawka inequality. Low-discrepancy sequences (Halton, Sobol) with scrambling achieve faster, near-linear convergence in low dimensions but struggle in high dimensions. Actionable takeaways: use stratified/adaptive sampling for moderate dimensions; use scrambling-equipped low-discrepancy sequences when feasible.]]></description>
+      <pubDate>Sun, 03 Aug 2025 20:53:08 GMT</pubDate>
+      <guid isPermaLink="true">https://thenumb.at/QMC/</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Italy's pizza detectives]]></title>
+      <link>https://www.bbc.com/travel/article/20250801-italys-undercover-pizza-detectives</link>
+      <description><![CDATA[AVPN enforces authentic Neapolitan pizza via rigorous, codified standards and ongoing audits. Key technical criteria: roundish seasoned crust, cornicione 1–2 cm, soft elastic dough, no large bubbles, no rolling pins, bake under 90 seconds, consume within 10 minutes. Accreditation requires AVPN-trained pizzaiolo, extensive documentation (photos/videos of kitchen and process) and continuous compliance checks. Training spans nine days with up to 40 practice pies daily; ~1,000 pizzerias are in the network, monitored by undercover agents. The program melds heritage with science (Università Parthenope) and remains open to updates (electric ovens, toppings debates).]]></description>
+      <pubDate>Sun, 03 Aug 2025 20:17:26 GMT</pubDate>
+      <guid isPermaLink="true">https://www.bbc.com/travel/article/20250801-italys-undercover-pizza-detectives</guid>
+      <source url="https://news.ycombinator.com/rss">Hacker News</source>
     </item>
   
   </channel>
