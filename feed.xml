@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI-Curated Developer Feed</title>
+    <title>Rubberduck Developer Feed</title>
     <link>https://github.com/yourusername/your-rss-repo</link>
     <description>Personalized developer news and articles</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Aug 2025 17:45:53 GMT</lastBuildDate>
-    <atom:link href="https://raw.githubusercontent.com/yourusername/your-rss-repo/main/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Aug 2025 18:56:09 GMT</lastBuildDate>
+    <atom:link href="https://jabocop.github.io/mydeveloperfeed/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title><![CDATA[Show HN: Octofriend, a cute coding agent that can swap between GPT-5 and Claude]]></title>
