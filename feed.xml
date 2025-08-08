@@ -1,1 +1,41 @@
-DUMMY
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI-Curated Developer Feed</title>
+    <link>https://github.com/yourusername/your-rss-repo</link>
+    <description>Personalized developer news and articles</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Aug 2025 09:45:15 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/yourusername/your-rss-repo/main/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title><![CDATA[Building Bluesky comments for my blog]]></title>
+      <link>undefined</link>
+      <description><![CDATA[This article details building a decentralized blog comment system using Bluesky’s AT Protocol]]></description>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://natalie.sh/posts/bluesky-comments/</guid>
+      <source url="leveraging DIDs and CIDs for content management without backend infrastructure. The key tools include @atcute/client for TypeScript API typings">leveraging DIDs and CIDs for content management without backend infrastructure. The key tools include @atcute/client for TypeScript API typings</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[Lightweight LSAT]]></title>
+      <link>undefined</link>
+      <description><![CDATA[Lightweight LSAT presents a free]]></description>
+      <pubDate>Fri, 08 Aug 2025 09:43:00 GMT</pubDate>
+      <guid isPermaLink="true">https://lightweightlsat.com/</guid>
+      <source url="pattern- and skill-based approach to LSAT prep">pattern- and skill-based approach to LSAT prep</source>
+    </item>
+  
+
+    <item>
+      <title><![CDATA[GPT-5: Key characteristics, pricing and system card]]></title>
+      <link>undefined</link>
+      <description><![CDATA[GPT-5 introduces a hybrid architecture, blending a fast, general model with a deeper reasoning model and a real-time router, improving task competence with token input limits of 272K and 128K output tokens. Pricing is highly competitive: $1.25/million input and $10/million output tokens, with significant caching discounts. It emphasizes safety through safe-completions, reducing hallucinations, and mitigating sycophancy via post-training. Prompt injection resilience remains imperfect, with over 50% attack success at multiple queries. API features include reasoning traces and efficient streaming via reasoning_effort=minimal. Practical tools demonstrated include SVG generation and reasoning via API, highlighting its capability for complex, creative tasks.]]></description>
+      <pubDate>Thu, 07 Aug 2025 17:46:18 GMT</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2025/Aug/7/gpt-5/</guid>
+      <source url="Hacker News">Hacker News</source>
+    </item>
+  
+  </channel>
+</rss>
